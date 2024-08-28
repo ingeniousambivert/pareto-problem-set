@@ -1,0 +1,18 @@
+{
+	"name": "test-problems",
+	"version": "1.0.0",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"mocha": "mocha test/ --recursive --exit --experimental-modules",
+		"test": "npm run mocha"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"chai": "^5.1.1",
+		"mocha": "^10.7.3"
+	}
+}
